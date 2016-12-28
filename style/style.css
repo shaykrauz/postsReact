@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers|PT+Sans:700italic,400);
+
+body,html{
+	height:100%;
+	/*	border: #00d8ff solid 2px;*/
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.3rem;
+	line-height: 1.6rem;
+}
+.active-link{
+	color:white;
+  background-color: #005f5f;
+}
+h1{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2rem;
+	line-height: 1rem;
+}
+
+.nav ul {
+  list-style: disc;
+  background-color: #1b1919;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  width: 90px;
+  padding-right: 10px;
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: #252323;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
